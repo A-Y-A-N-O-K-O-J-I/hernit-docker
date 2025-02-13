@@ -17,7 +17,7 @@ WORKDIR /home/suhail
 COPY server.js .
 
 # Install dependencies
-RUN yarn install
+RUN npm install
 
 # Expose the port
 EXPOSE 8000
